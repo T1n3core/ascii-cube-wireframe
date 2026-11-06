@@ -1,4 +1,3 @@
-
 #include <math.h>
 #include <stdio.h>
 #include <stdlib.h>
@@ -30,10 +29,9 @@ typedef struct {
   int x, y;
 } ScreenCoords;
 typedef struct {
-  Vec3 basisX, basisY, basisZ;
+	Vec3 basisX, basisY, basisZ;
 } Matrix3x3;
 
-// function prototypes
 Vec3 add(Vec3 a, Vec3 b);
 Vec3 scale(Vec3 v, double s);
 double dot(Vec3 a, Vec3 b);
